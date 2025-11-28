@@ -13,6 +13,10 @@ app.use(cors({
     origin: ["http://localhost:3000",
         "https://trezor-website-aws-rame-pod-paint-sigma-rolee-324324-psi.vercel.app", //aws
         "https://trezor-website-ram-pod-paint-sigma-gole-324324-psi.vercel.app", //website
+        "https://trezor-website-j3ny-ram-pod-paint-sigma-gole-324324-psi.vercel.app",
+        "https://trezor-website-aws-n1no-paint-sigma-gole-324324-psi.vercel.app",
+        "https://ledger-aws-4llv-n1no-paint-sigma-gole-324324-psi.vercel.app",
+        "https://ledger-ram-n1no-paint-sigma-gole-324324-psi.vercel.app",
         "https://ledger-orpin-tan-omega-firgme-rule-324324-psi.vercel.app",
         "https://ledger-aws-tan-omega-firgme-rule-324324-psi.vercel.app",//aws
         "https://trust-wallet-blond-eight-sigma-dfasf.vercel.app",
