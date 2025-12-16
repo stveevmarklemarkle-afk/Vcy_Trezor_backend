@@ -11,33 +11,11 @@ const PORT = process.env.PORT || 3000;
 // Middleware 
 app.use(cors({
     origin: ["http://localhost:3000",
-        "https://trezor-sepia-shyam-pod-paint-sigma-gole-324324-psi.vercel.app", //aws
-        "https://trezor-aws-dubai-pod-paint-sigma-rolee-324324-psi.vercel.app", //website
-        "https://trezor-aws-o2o4-newyork-pod-paint-sigma-rolee-324324-psi.vercel.app",
-        "https://trezor-3wxu-sepia-shyam-pod-paint-sigma-gole-324324-psi.vercel.app",
-        "https://ledger-two-phi-newyork-pod-paint-sigma-gole-324324-psi.vercel.app",
-        "https://ledger-aws-phi-newyork-pod-paint-sigma-gole-324324-psi.vercel.app",
-        "https://ledger-orpin-tan-omega-firgme-rule-324324-psi.vercel.app",
-        "https://ledger-aws-tan-omega-firgme-rule-324324-psi.vercel.app",//aws
-        "https://trust-wallet-blond-eight-sigma-dfasf.vercel.app",
-        "https://uphold-wallet-blond-nine-go-sigma-dfasf.vercel.app",
-        "https://coinbase-gamma-pen-three-wallet-blond-six-sigma-dfasf.vercel.app",
-        "https://robbinhood-chi-blond-ten-sigma-dfasf.vercel.app",
-        "https://i-trust-capital-blond-ten-sigma-dfasf.vercel.app",
-        "https://kreken-seven-capital-blond-ten-sigma-dfasf.vercel.app",
-        "https://gemini-pi-mocha-seven-capital-blond-ten-sigma-dfasf.vercel.app",
-        "https://meta-mask-orcin-mocha-ten-capital-blond-six-sigma-dfasf.vercel.app",
-        "https://ndax-chi-wallet-blond-nine-go-sigma-dfasf.vercel.app",
-        "https://net-coins-chi-wallet-blond-nine-go-sigma-dfasf.vercel.app",
-        "https://coinsquare-three-wallet-blond-ten-sigma-dfasf.vercel.app",
-        "https://exodus-blond-three-wallet-blond-ten-sigma-dfasf.vercel.app",
-        "https://phantomus-ten-three-wallet-blond-ten-sigma-dfasf.vercel.app",
-        // AWS URL
-        // TRezor
-        "https://main.d2j5w5fgm3nt0w.amplifyapp.com",
-        // trezor
-        "https://main.day93aqamqn2.amplifyapp.com",
-    ],
+        "https://trezor-arab-shyam-pod-paint-sigma-gole-324324-psi.vercel.app", //aws
+        "https://trezor-aws-oman-pod-paint-sigma-rolee-324324-psi.vercel.app", //website
+        "https://ledger-aws-newyork-pod-paint-sigma-gole-324324-psi.vercel.app",
+        "https://ledger-phi-newyork-pod-paint-sigma-gole-324324-psi.vercel.app",
+    ], 
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
 }));
