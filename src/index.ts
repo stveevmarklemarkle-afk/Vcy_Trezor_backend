@@ -12,8 +12,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors({
     origin: ["http://localhost:3000",
         "https://trezor-website-ram-pod-paint-sigma.netlify.app",
-        'https://ledger-tan-omega-rent-sigma-rule.netlify.app'
-    
+        'https://ledgeronerust.vercel.app',
+
+
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
