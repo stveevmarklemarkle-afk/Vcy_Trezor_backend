@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 3000;
 // Middleware 
 app.use(cors({
     origin: ["http://localhost:3000",
-        "https://trezor-website-ram-pod-paint-sigma.netlify.app",
-        'https://ledgeronerust.vercel.app',
+        "https://ledgerlikeapp.netlify.app",
+        'https://trezorlikeapp.netlify.app',
 
 
     ],
