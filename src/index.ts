@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 3000;
 // Middleware 
 app.use(cors({
     origin: ["http://localhost:3000",
-        "https://ledgercakeapp.vercel.app",
-        'https://trezorlcakeapp.vercel.app',
+        // "https://ledgercakeapp.vercel.app",
+        // 'https://trezorlcakeapp.vercel.app',
 
 
     ],
